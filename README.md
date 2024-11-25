@@ -51,7 +51,7 @@ Check out the live project!
 
 ## Implementation Steps
 
-- Create a Groq API key from Groq Cloud platform.
+- Create a Groq API key from Groq Cloud platform. [GroqCloud](https://console.groq.com/login)
 - Copy and Paste the API key in the Sidebar Input field.
 - Ask any maths question and enjoy!
 
