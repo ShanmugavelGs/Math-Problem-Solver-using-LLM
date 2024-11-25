@@ -3,6 +3,7 @@
 ## Table of Content
 
 - [Project Summary](#project-summary)
+- [Project Live Link](#project-live-link)
 - [Project User Interface](#project-user-interface)
 - [Technologies Used](#technologies-used)
 - [Implementation Steps](#implementation-steps)
@@ -20,6 +21,14 @@ Developed a Text-to-Math Problem Solver and Data Search Assistant leveraging Gro
 - Custom Prompting and Agents: Combines LLMChain with custom prompt templates and integrates multiple tools via Zero-Shot React Agent to dynamically handle different types of queries.
 
 The system provides an intuitive chat interface where users can interact with the assistant, input questions, and receive responses with detailed reasoning. The project showcases the power of integrating language models, external data sources, and reasoning tools for a comprehensive, interactive AI solution.
+
+---
+
+## Project Live Link
+
+Check out the live project!
+
+[Text to Math App](https://math-problem-solver-using-llmgit-3yvytcfn444asmfdkr9byq.streamlit.app/)
 
 ---
 
