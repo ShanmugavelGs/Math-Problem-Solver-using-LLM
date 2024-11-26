@@ -7,7 +7,7 @@ from langchain.agents.agent_types import AgentType
 from langchain.agents import Tool, initialize_agent
 from langchain.callbacks import StreamlitCallbackHandler
 
-## Set upi the Stramlit app
+## Set ui the Stramlit app
 st.set_page_config(page_title="Text To Math Problem Solver And Data Search Assistant",page_icon="🧮")
 st.title("Text To Math Problem Solver Using Google Gemma 2")
 
@@ -26,7 +26,7 @@ wikipedia_wrapper=WikipediaAPIWrapper()
 wikipedia_tool=Tool(
     name="Wikipedia",
     func=wikipedia_wrapper.run,
-    description="A tool for searching the Internet to find the vatious information on the topics mentioned"
+    description="A tool for searching the Internet to find various information on the topics mentioned"
 
 )
 
@@ -36,7 +36,7 @@ math_chain=LLMMathChain.from_llm(llm=llm)
 calculator=Tool(
     name="Calculator",
     func=math_chain.run,
-    description="A tools for answering math related questions. Only input mathematical expression need to bed provided"
+    description="A tools for answering math related questions. Only input mathematical expression need to be provided"
 )
 
 prompt="""
